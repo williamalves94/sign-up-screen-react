@@ -6,10 +6,11 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #b15fec;
+    background: #3388aa;
     h1{
         font-size: 40px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
+        color: #4B0082;
     }
 `;
 
@@ -28,32 +29,29 @@ export const SignUpDiv = styled.div`
 export const Form = styled.form`    
     input{
         width: 100%;
-        height: 40px;
-        margin-bottom: 20px;
-        border: none;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 12px;
+        border: 2px solid #4B0082;
         border-radius: 12px;
-        background-color: #4B0082;
+        background-color: #fff;
         outline: none;
-        padding: 5px;
-        color: #fff;
+        padding: 10px;
+        color: #000;
         font-weight: 600;
         font-size: 15px;       
     }
 `;
 
-export const Checkbox = styled.div`
-
-`;
-
 export const ButtonSignUp = styled.button`
     width: 100%;
-    height: 40px;
+    height: 45px;
     background-color: #4B0082;
     border-radius: 12px;
     border: none;
     cursor: pointer;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-weight: 600;
     font-size: 15px;
     text-align: center;
@@ -63,3 +61,5 @@ export const ButtonSignUp = styled.button`
         }  
 
 `;
+
+export const Checkbox = styled.div``;

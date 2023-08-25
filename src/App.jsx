@@ -9,12 +9,12 @@ const App = () => {
           <input type="text" placeholder="Nome" required/>
           <input type="text" placeholder="Sobrenome" required/>
           <input type="email" placeholder="Email" required/>
-          <input type="password" placeholder="Senha"/>
+          <input type="password" placeholder="Senha" required/>
           <input type="password" placeholder="Confirme sua senha" required/>
         </Form>
         <Checkbox>
           <input type="checkbox" />
-          <label htmlFor="checkbox"> Eu concordo <a href="">Termos e condições</a></label>
+          <label htmlFor="checkbox"> Eu concordo <a href="" required>Termos e condições</a></label>
         </Checkbox>
         <ButtonSignUp>SignUp</ButtonSignUp>
         <div>Ja tem uma conta?
